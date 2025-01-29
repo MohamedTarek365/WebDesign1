@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: fantasy;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(to right, #01022d, #000);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.contanir {
+    background-image:
+        linear-gradient(to right, #01022de5, #00000086),
+        url(bg-1-2.jpg);
+    width: 90%;
+    height: 640px;
+    
+
+}
+
+.contanir:hover {
+    background-image:
+        linear-gradient(to right, #01022de5, transparent),
+        url(bg-1-2.jpg );
+
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+ul {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+ul li{
+    list-style: none;
+}
+ul a{
+    border-bottom: 2px solid transparent;
+
+}
+ul a:hover{
+    border-bottom: 2px solid white;
+
+}
+.content{
+    width: 50%;
+    color: white;
+    margin-top: 50px;
+    padding: 50px;
+
+}
+h2{
+    font-size: 90px;
+    padding: 20px 0;
+    color:  #4880ef;
+text-transform: uppercase;
+    
+}
+p{
+    font-size: 20px;
+    width:350px ;
+
+}
+.logo{
+    font-size: 30px;
+    color: #4880ef;
+}
+button{
+    font-size: 50px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    background: #4880ef;
+    border: 2px solid  transparent;
+
+}
+button:hover{
+    background: white;
+    border: 5px solid #4880ef ;
+
+}
